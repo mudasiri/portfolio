@@ -16,8 +16,9 @@ body {
 .flexbox {
   display: flex;
   justify-content: space-between;
-  padding: 10px 8px;
+  padding: 14px 8px;
   background-color: #fff;
+  
 }
 
 .logo {
@@ -26,10 +27,16 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  padding: 10px 12px;
+  text-decoration: none;
+  
 }
+
 
 .fa-bars {
   color: #6070ff;
+  width: 18px;
+  height: 12px;
 }
 
 .intro {
@@ -54,10 +61,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  text-decoration: none;
 }
 
 .social-media li {
   display: inline;
+  
 }
 
 .social-media {
@@ -65,6 +74,9 @@ body {
   padding-left: 0;
 }
 
+.fa-brands{
+  color: #505F79;
+}
 .title {
   font-style: normal;
   font-weight: 700;

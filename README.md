@@ -35,7 +35,7 @@ so when you make a pull request there will be some tests that your code should p
 NA
 
 
-## Authors
+## Author
 
 👤 **Mudasir Issah**
 
