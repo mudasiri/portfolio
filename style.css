@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 @media screen and (min-width: 480px) {
   body {
     background-color: lightgreen;
@@ -72,14 +73,12 @@ body {
 .fa-brands {
   color: #505f79;
   padding-right: 19px;
-
 }
 
 .title {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
