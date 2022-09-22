@@ -275,3 +275,91 @@ body {
   border: #dfe1e6;
   margin: 0;
 }
+
+.flex-contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('img/cfbg.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #6070ff;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 103px;
+  padding-bottom: 45px;
+  border-radius: 60px 0 0 0;
+  text-align: center;
+}
+
+.flex-contact h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.flex-contact p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: #fff;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+input[type=email] {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: #fff;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: #fff;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  float: left;
+  padding: 12px 16px;
+  background-color: #fff;
+  border: #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  margin-top: 22px;
+}
+
+.contact-me {
+  background-color: #fff;
+}
