@@ -152,6 +152,7 @@ body {
 
 .see-demo-btn{
   border-radius: 8px;
+  background-color: #FFFFFF;
   padding: 12px;
   border: 1px solid #6070FF;
   color: #396DF2;
@@ -186,9 +187,92 @@ color: #FFFFFF;
 .grid-container{
   display: grid;
   grid-template-columns: auto;
-  margin-bottom: 114px;
+  margin-bottom: 36px;
 }
 
 .grid-container > div{
   margin-bottom: 88px;
+}
+
+.aboutme{
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 0 70px 0 0;
+}
+
+.skils-ul{
+  padding-left: 0;
+  margin: 20px;
+}
+.skils-ul li{
+  display: block;
+  
+}
+
+.flex-skill-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.flex-skill-title h2{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.flex-skill-title2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-skill-title2 h2{
+  
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.fa-angle-down{
+  color: #ACB7C3;
+}
+
+.flex-language-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #F7F7F9;
+  border-radius: 8px;
+  padding: 9px 0px 9px 12px;
+  margin-bottom: 12px;
+}
+
+.sub-languages{
+  padding-left: 0;
+}
+
+
+.flex-language-item img{
+  height: 48px;
+  width: 48px;
+  margin-right: 16px;
+}
+
+.flex-language-item h3{
+  font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #253858;
+}
+
+.skils-ul hr{
+  height: 1px;
+  background: #DFE1E6;
+  border:  #DFE1E6;
+  margin: 0;
 }
