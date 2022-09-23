@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-
-
 body {
   font-family: 'Poppins', sans-serif;
   overflow: auto;
@@ -343,7 +341,6 @@ textarea {
 }
 
 input[type=submit] {
- 
   float: left;
   padding: 12px 16px;
   background-color: #fff;
@@ -362,35 +359,17 @@ input[type=submit] {
   background-color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
   body {
     background-color: #e5e5e5;
   }
 
-  .intro{
+  .intro {
     background-image: url('img/desktopheaderbg.png');
-  border-radius: 0 0 0 50px;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  padding: 120px;
+    border-radius: 0 0 0 50px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    padding: 120px;
   }
 
   .title {
@@ -406,10 +385,9 @@ input[type=submit] {
     padding-right: 140px;
     padding-left: 140px;
     margin-top: 140px;
-    
   }
 
-  .portfolio-item-img{
+  .portfolio-item-img {
     margin-right: 46px;
   }
 
@@ -423,7 +401,8 @@ input[type=submit] {
 
   .aboutme {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 55%;
+    align-items: center;
     background-color: #fff;
     padding: 142px;
     border-radius: 0 70px 0 0;
@@ -447,9 +426,8 @@ input[type=submit] {
     text-align: center;
   }
 
-  .btnholder{
+  .btnholder {
     display: flex;
     justify-content: center;
   }
-  
 }
