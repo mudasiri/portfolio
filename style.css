@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   body {
     background-color: lightgreen;
   }
