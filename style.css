@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
-@media screen and (min-width: 768px) {
-  body {
-    background-color: lightgreen;
-  }
-}
+
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -29,6 +25,7 @@ body {
   color: #6070ff;
   padding: 10px 12px;
   text-decoration: none;
+  background-repeat: no-repeat;
 }
 
 .fa-bars {
@@ -94,7 +91,8 @@ body {
 }
 
 .portfolio-item-img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-title {
@@ -362,4 +360,64 @@ input[type=submit] {
 
 .contact-me {
   background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #e5e5e5;
+  }
+
+  .intro{
+    background-image: url('img/desktopheaderbg.png');
+  border-radius: 0 0 0 50px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  padding: 120px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 3%;
+    color: #172b4d;
+  }
+
+  .works {
+    padding-right: 140px;
+    padding-left: 140px;
+    margin-top: 140px;
+    
+  }
+
+  .portfolio-item-img{
+    margin-right: 46px;
+  }
+
+  .works-flex-container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
