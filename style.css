@@ -343,7 +343,7 @@ textarea {
 }
 
 input[type=submit] {
-  width: 50%;
+ 
   float: left;
   padding: 12px 16px;
   background-color: #fff;
@@ -420,4 +420,36 @@ input[type=submit] {
     display: flex;
     justify-content: space-between;
   }
+
+  .aboutme {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    padding: 142px;
+    border-radius: 0 70px 0 0;
+  }
+
+  .flex-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('img/cfbg.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #6070ff;
+    color: #fff;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 142px;
+    padding-bottom: 127px;
+    border-radius: 60px 0 0 0;
+    text-align: center;
+  }
+
+  .btnholder{
+    display: flex;
+    justify-content: center;
+  }
+  
 }
