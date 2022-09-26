@@ -426,8 +426,6 @@ input[type=submit] {
     justify-content: space-between;
   }
 
-
-
   .flex-flip {
     display: flex;
     flex-direction: row-reverse;
