@@ -101,7 +101,7 @@
             <li><a href="https://github.com/mudasiri"><i class="fa-brands fa-github"></i></a></li>
             <li><a href="https://github.com/mudasiri"><i class="fa-brands fa-medium"></i></a></li>
         </ul>
-        <button class="see-demo-btn">Get my resume</button>
+        <button type="button" class="see-demo-btn">Get my resume</button>
 
         <ul class="skils-ul">
             <li>
@@ -139,21 +139,24 @@
                 <i class="fa-sharp fa-solid fa-angle-right"></i>
               </div>
               <hr>
-            </li>
-            
+            </li> 
         </ul>
     </section>
-    <section class="contact-me">
-        <div class="flex-contact">
-            <h2>Contact me</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <form action="" id="contact-form">
-            <input type="text" value="Mudasir">
-            <input type="email" name="" id="" value="muda@nonihub.org">
-            <textarea name="" id="" cols="30" rows="10" form="contact-form" placeholder="Write your message here"></textarea>
-            <input class="submit-btn" type="submit" value="Get In Touch">
-        </form>
-        </div>
+    <section class="contact-area">
+        <div class="contact-me">
+            <h3>Contact Me</h3>
+            <p>
+                If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
+            </p>
+           
+                <form action="https://formspree.io/f/mbjbopyj" method="post">
+                    <input type="text" id="name" name="name" minlength="1" maxlength="30" placeholder="SabaAhmad and Muda Issah" required>
+                    <input type="email" name="email-address" placeholder="name@gmail.com" required>
+                    <textarea id="message" name="message" rows="5" cols="30" maxlength="500" placeholder="Write message here" required></textarea>
+                    <input class="see-demo-btn" type="submit" value="Get In Touch">
+                </form>
+            </div>
     </section>
+    
 </body>
 </html>
