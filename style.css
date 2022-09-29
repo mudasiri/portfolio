@@ -38,6 +38,8 @@ body {
   border-radius: 0 0 0 50px;
   background-color: #fff;
   padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .description {
@@ -87,6 +89,9 @@ body {
   background-color: #fff;
   border-radius: 20px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolio-item-img {
@@ -280,7 +285,7 @@ body {
   margin: 0;
 }
 
-.contact-me {
+.flex-contact {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -363,8 +368,12 @@ input[type=submit] {
   margin-top: 22px;
 }
 
-.contact-area {
+.contact-me {
   background-color: #fff;
+}
+
+.nav-items{
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -424,6 +433,7 @@ input[type=submit] {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
 
   .flex-flip {
@@ -463,7 +473,7 @@ input[type=submit] {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url('img/cfbg.png');
+    background-image: url('img/dscontactformbg.png');
     background-position: top right;
     background-repeat: no-repeat;
     background-size: contain;
