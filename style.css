@@ -280,7 +280,7 @@ body {
   margin: 0;
 }
 
-.flex-contact {
+.contact-me {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -363,7 +363,7 @@ input[type=submit] {
   margin-top: 22px;
 }
 
-.contact-me {
+.contact-area {
   background-color: #fff;
 }
 
@@ -482,3 +482,4 @@ input[type=submit] {
     justify-content: center;
   }
 }
+
