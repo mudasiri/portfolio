@@ -387,10 +387,11 @@ input[type=submit] {
 
   .nav-items {
     list-style-type: none;
+    display: inline;
   }
 
   .nav-items li {
-    display: inline;
+    display: inline ;
     margin-right: 32px;
     font-style: normal;
     font-weight: 500;
