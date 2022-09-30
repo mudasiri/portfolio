@@ -25,7 +25,9 @@ body {
   padding: 10px 12px;
   text-decoration: none;
   background-repeat: no-repeat;
+  transition: color 0.5s ease;
 }
+
 
 .fa-bars {
   color: #6070ff;
@@ -481,4 +483,9 @@ input[type=submit] {
     display: flex;
     justify-content: center;
   }
+
+  .logo:hover {
+    color: red;
+  }
 }
+
