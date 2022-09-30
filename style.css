@@ -17,6 +17,7 @@ body {
 }
 
 .logo {
+  display: block;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -491,5 +492,20 @@ input[type=submit] {
 
   .logo:hover {
     color: red;
+    animation: rotate 1s linear;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
