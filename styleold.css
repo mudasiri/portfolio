@@ -207,7 +207,7 @@ body {
   margin-bottom: 36px;
 }
 
-.grid-container > div {
+.grid-container>div {
   margin-bottom: 88px;
 }
 
@@ -377,7 +377,7 @@ input[type=submit] {
 
 @media screen and (min-width: 768px) {
   
-  body {
+body {
     background-color: #e5e5e5;
   }
 
