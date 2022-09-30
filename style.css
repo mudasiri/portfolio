@@ -28,7 +28,6 @@ body {
   transition: color 0.5s ease;
 }
 
-
 .fa-bars {
   color: #6070ff;
   width: 18px;
@@ -94,10 +93,10 @@ body {
 .portfolio-item-img {
   width: 100%;
   height: 100%;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
-.portfolio-item-img:hover{
+.portfolio-item-img:hover {
   transform: scale(1.1);
   border-radius: 10px;
 }
@@ -494,4 +493,3 @@ input[type=submit] {
     color: red;
   }
 }
-
