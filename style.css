@@ -381,7 +381,7 @@ input[type=submit] {
   }
 
   .fa-bars {
-    display: none !important;
+   display: none !important;
   }
 
   .nav-items {
