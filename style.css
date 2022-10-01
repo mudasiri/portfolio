@@ -380,7 +380,7 @@ input[type=submit] {
     background-color: #e5e5e5;
   }
 
-  .burger  {
+  .burger {
     display: none !important;
   }
 
@@ -399,7 +399,7 @@ input[type=submit] {
   }
 
   .intro {
-    background-image:url('img/desktopheaderbg.png');
+    background-image: url('img/desktopheaderbg.png');
     border-radius: 0 0 0 50px;
     background-color: #fff;
     background-repeat: no-repeat;
