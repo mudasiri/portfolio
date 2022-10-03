@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://nolivedemoyet.com)
+[Live Demo Link](https://mudasiri.github.io/portfolio/)
 
 
 ## Getting Started
