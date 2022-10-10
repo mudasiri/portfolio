@@ -9,17 +9,25 @@
     <script src="https://kit.fontawesome.com/69bb18a36d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <header class="flexbox">
         <span><a class="logo" href="#">Mudasiri</a></span>
-        <nav>
-            <i class="burger fa-solid fa-bars" onclick="toggleMenu()"></i>
-            <ul class="nav-items">
+        <nav class="mnav">
+            <i class="burger fa-solid fa-bars" onclick="toggleMenu(this)"></i>
+            <ul id="nav-list" class="nav-items">
                 <li>Portfolio</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
         </nav>
     </header>
+    <div class="mobile-menu-pane">
+        <ul class="mobile-nav-items">
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
     <section class="intro">
         <h1 class="title">I’m Mudasir <br>
             Welcome to my Site!</h1>
@@ -175,6 +183,6 @@
         </form>
         </div>
     </section>
-    
+    <script src="scripts.js"></script>
 </body>
 </html>
