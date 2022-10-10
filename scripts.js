@@ -1,9 +1,9 @@
-let menuIcon = document.querySelector('.fa-bars');
-let mobileMenuList = document.querySelector('.mobile-menu-pane');
-let mobileHeader = document.querySelector('.flexbox');
-function toggleMenu(menu){
-mobileHeader.classList.toggle('header-bg');
-menu.classList.toggle('fa-xmark');
-mobileMenuList.classList.toggle('opened');
-//alert('hi');
-}
+const menuIcon = document.querySelector('.fa-bars');
+const mobileMenuList = document.querySelector('.mobile-menu-pane');
+const mobileHeader = document.querySelector('.flexbox');
+
+menuIcon.addEventListener('click', () => {
+  mobileHeader.classList.toggle('header-bg');
+  menuIcon.classList.toggle('fa-xmark');
+  mobileMenuList.classList.toggle('opened');
+});
