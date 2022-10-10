@@ -153,6 +153,10 @@ body {
   display: block;
 }
 
+.mobile-nav-items li{
+  margin-bottom: 40px;
+}
+
 #portfolio-technologies li {
   display: inline;
   border-radius: 8px;
@@ -408,9 +412,7 @@ font-size: 32px;
 line-height: 44px;
 }
 
-.mobile-nav-items li{
-  margin-bottom: 40px;
-}
+
 
 .header-bg{
   background-color: #6070fff3;
