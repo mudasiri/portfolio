@@ -405,14 +405,17 @@ input[type=submit] {
 .mobile-nav-items{
   display: flex;
   flex-direction: column;
-  color: #FFF;
+  color: #FFF !important;
   list-style-type: none;
   font-weight: 600;
 font-size: 32px;
 line-height: 44px;
 }
 
-
+.mobile-nav-items li a{
+  color: #FFF;
+  text-decoration: none;
+}
 
 .header-bg{
   background-color: #6070fff3;
@@ -447,6 +450,14 @@ line-height: 44px;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+  }
+
+  .nav-items li a{
+    text-decoration: none;
+    color: #344563;
+    font-weight: 500;
+font-size: 15px;
+line-height: 20px;
   }
 
   .intro {
