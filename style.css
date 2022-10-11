@@ -402,6 +402,10 @@ input[type=submit] {
   background-blend-mode: multiply;
 }
 
+.stopScroll{
+  overflow: hidden;
+  height: 100vh;
+}
 .mobile-nav-items{
   display: flex;
   flex-direction: column;
