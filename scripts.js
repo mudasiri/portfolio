@@ -34,7 +34,6 @@ const projectInfo2 = new Project('Multi-Post Stories', 'A daily selection of pri
 const projectInfo3 = new Project('Facebook 360', 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.', 'img/portfolio4.png', ['FACEBOOK', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
 const projectInfo4 = new Project('Uber Navigation', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.', 'img/portfolio2.png', ['UBER', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
 
-projects = [projectInfo1, projectInfo2, projectInfo3, projectInfo4];
 function showDemo() {
   document.getElementById('overlay-project').style.display = 'block';
 }
@@ -44,9 +43,12 @@ function closeDemo() {
 }
 
 function prepareProject(projects) {
-  let con = document.createElement('div');
+  let worksection = document.querySelector('.grid-container');
   for (let i = 0; i < projects.length; i++) {
+    let con = document.createElement('div');
+    console.log(i);
     if (i === 1) {
+      console.log(i);
       con.classList.toggle('works-flex-container', 'flex-flip');
       let img = document.createElement('img');
       img.src = 'hi';
@@ -164,11 +166,11 @@ function prepareProject(projects) {
     contdetails.appendChild(button);
     con.appendChild(contdetails);
     }
+    worksection.appendChild(con);
   }
-  return con;
 }
 
 function displayWorks() {
-  let worksection = document.querySelector('.grid-container');
-  worksection.appendChild(prepareProject(projects));
+  projects = [projectInfo1, projectInfo2, projectInfo3];
+  prepareProject(projects);
 }
