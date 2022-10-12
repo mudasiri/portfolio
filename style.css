@@ -17,9 +17,13 @@ body {
   bottom: 0;
   height: 100%;
   width: 100%;
-background-color: #C1C7D0;
-opacity: 40%;
+background-color: #c1c7d0e7;
 z-index: 2;
+}
+
+.displayover{
+  position: absolute;
+  margin: 50px 16px;
 }
 
 .flexbox {
@@ -27,6 +31,12 @@ z-index: 2;
   justify-content: space-between;
   padding: 20px;
   background-color: #fff;
+  align-items: center;
+}
+
+.flexbox-popup {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -52,6 +62,17 @@ z-index: 2;
   color: #6070ff;
   width: 18px;
   height: 12px;
+}
+
+.mobile-divider{
+  height: 0;
+  border: 1px solid #EBECF0;
+}
+
+
+
+.cancel{
+  color: #67798E !important;
 }
 
 .intro {
@@ -115,10 +136,29 @@ z-index: 2;
   justify-content: space-between;
 }
 
+.works-flex-container-popup {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .portfolio-item-img {
   width: 100%;
   height: 100%;
   transition: transform 0.2s;
+}
+
+.portfolio-item-img-popup {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s;
+}
+
+.categories{
+  margin-bottom: 20px;
 }
 
 .portfolio-item-img:hover {
@@ -166,6 +206,27 @@ z-index: 2;
 
 #portfolio-technologies {
   padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.btn-text-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.popup-btn{
+  width: 45%;
+}
+
+.flex-btns{
+  display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#popup-margin{
+margin-bottom: 30px;
 }
 
 .skils-ul li {
