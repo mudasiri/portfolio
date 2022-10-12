@@ -8,6 +8,20 @@ body {
   background-color: #e5e5e5;
 }
 
+.overlay-project{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+background-color: #C1C7D0;
+opacity: 40%;
+z-index: 2;
+}
+
 .flexbox {
   display: flex;
   justify-content: space-between;
