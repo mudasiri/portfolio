@@ -206,7 +206,6 @@ z-index: 2;
 
 #portfolio-technologies {
   padding-left: 0;
-  margin-bottom: 30px;
 }
 
 .btn-text-flex{
@@ -247,6 +246,7 @@ margin-bottom: 30px;
   line-height: 16px;
   letter-spacing: 3;
   padding: 4px 12px;
+  margin-right: 10px;
 }
 
 .see-demo-btn {
@@ -259,8 +259,8 @@ margin-bottom: 30px;
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 3;
-  margin-top: 24px;
-  margin-bottom: 28px;
+  margin-top: 10px;
+  margin-bottom: 18px;
 }
 
 .see-demo-btn:hover {
