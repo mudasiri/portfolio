@@ -183,6 +183,21 @@ function prepareProject(projects) {
   }
 }
 
+// contact validation
+const email = document.getElementById('email');
+const contactForm = document.querySelector('#contact-form');
+const errorMsg = document.querySelector('#error-message');
+let emailValue = '';
+
+contactForm.addEventListener('submit', (event) => {
+  emailValue = email.value;
+  if (emailValue.toLowerCase() !== emailValue) {
+    errorMsg.textContent = 'Form NOT SENT, Please use LOWERCASE letters on email, Thanks!';
+    errorMsg.style.display = 'block';
+    event.preventDefault();
+  }
+});
+
 function displayWorks() {
   prepareProject(projects);
 }
