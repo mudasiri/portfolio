@@ -62,9 +62,7 @@ function prepareProject(projects) {
   const worksection = document.querySelector('.grid-container');
   for (let i = 0; i < projects.length; i += 1) {
     const con = document.createElement('div');
-    console.log(i);
     if (i === 1) {
-      console.log(i);
       con.classList.toggle('works-flex-container', 'flex-flip');
       const img = document.createElement('img');
       img.src = 'hi';

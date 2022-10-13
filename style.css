@@ -8,7 +8,7 @@ body {
   background-color: #e5e5e5;
 }
 
-.overlay-project{
+.overlay-project {
   display: none;
   position: fixed;
   top: 0;
@@ -17,12 +17,12 @@ body {
   bottom: 0;
   min-height: 100vh;
   width: 100%;
-background-color: #c1c7d0e7;
-z-index: 2;
-overflow: auto;
+  background-color: #c1c7d0e7;
+  z-index: 2;
+  overflow: auto;
 }
 
-.displayover{
+.displayover {
   position: absolute;
   left: 20px;
   right: 20px;
@@ -56,7 +56,7 @@ overflow: auto;
   transition: color 0.5s ease;
 }
 
-.nav-link{
+.nav-link {
   color: white;
   text-decoration: none;
 }
@@ -67,15 +67,13 @@ overflow: auto;
   height: 12px;
 }
 
-.mobile-divider{
+.mobile-divider {
   height: 0;
-  border: 1px solid #EBECF0;
+  border: 1px solid #ebecf0;
 }
 
-
-
-.cancel{
-  color: #67798E !important;
+.cancel {
+  color: #67798e !important;
 }
 
 .intro {
@@ -151,7 +149,7 @@ overflow: auto;
   justify-content: space-between;
 }
 
-.works-flex-container-popup-desktop{
+.works-flex-container-popup-desktop {
   background-color: #fff;
   border-radius: 20px;
   padding: 20px;
@@ -172,7 +170,7 @@ overflow: auto;
   transition: transform 0.2s;
 }
 
-.categories{
+.categories {
   margin-bottom: 20px;
 }
 
@@ -223,24 +221,24 @@ overflow: auto;
   padding-left: 0;
 }
 
-.btn-text-flex{
+.btn-text-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.popup-btn{
+.popup-btn {
   width: 45%;
 }
 
-.flex-btns{
+.flex-btns {
   display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-#popup-margin{
-margin-bottom: 30px;
+#popup-margin {
+  margin-bottom: 30px;
 }
 
 .skils-ul li {
@@ -658,26 +656,25 @@ input[type=submit] {
     animation: rotate 1s linear;
   }
 
-  .displayover{
+  .displayover {
     position: absolute;
     left: 20%;
     right: 20%;
     top: 20px;
-    
   }
 
-  .flex-ondesktop{
+  .flex-ondesktop {
     display: flex;
     flex-direction: row;
   }
 
-  .flex-ondesktop p{
+  .flex-ondesktop p {
     width: 60%;
   }
 
-  .popup-btn{
+  .popup-btn {
     width: 140px;
-margin-right: 10px;
+    margin-right: 10px;
   }
 
   @keyframes rotate {
