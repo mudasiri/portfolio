@@ -15,15 +15,18 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
 background-color: #c1c7d0e7;
 z-index: 2;
+overflow: auto;
 }
 
 .displayover{
   position: absolute;
-  margin: 50px 16px;
+  left: 20px;
+  right: 20px;
+  top: 20px;
 }
 
 .flexbox {
@@ -134,9 +137,21 @@ z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  box-sizing: border-box;
 }
 
 .works-flex-container-popup {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.works-flex-container-popup-desktop{
   background-color: #fff;
   border-radius: 20px;
   padding: 20px;
@@ -153,7 +168,7 @@ z-index: 2;
 
 .portfolio-item-img-popup {
   width: 100%;
-  height: 100%;
+  height: 350px;
   transition: transform 0.2s;
 }
 
@@ -641,6 +656,28 @@ input[type=submit] {
   .logo:hover {
     color: red;
     animation: rotate 1s linear;
+  }
+
+  .displayover{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20px;
+    
+  }
+
+  .flex-ondesktop{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-ondesktop p{
+    width: 60%;
+  }
+
+  .popup-btn{
+    width: 140px;
+margin-right: 10px;
   }
 
   @keyframes rotate {

@@ -47,7 +47,7 @@ function showDemo(index) {
   document.getElementById('popup-btnlive').setAttribute('onclick', `${projects[index].liveurl}`);
   document.getElementById('popup-btngithub').setAttribute('onclick', `${projects[index].githubsrc}`);
   // get all list items and change values
-  let items = document.getElementById('portfolio-technologies').querySelectorAll('.pop-list');
+  const items = document.getElementById('portfolio-technologies').querySelectorAll('.popup-list');
   items[0].innerHTML = projects[index].lang[0];
   items[1].innerHTML = projects[index].lang[1];
   items[2].innerHTML = projects[index].lang[2];
