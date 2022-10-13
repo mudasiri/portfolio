@@ -8,11 +8,38 @@ body {
   background-color: #e5e5e5;
 }
 
+.overlay-project {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #c1c7d0e7;
+  z-index: 2;
+  overflow: auto;
+}
+
+.displayover {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+}
+
 .flexbox {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   background-color: #fff;
+  align-items: center;
+}
+
+.flexbox-popup {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -29,7 +56,7 @@ body {
   transition: color 0.5s ease;
 }
 
-.nav-link{
+.nav-link {
   color: white;
   text-decoration: none;
 }
@@ -38,6 +65,15 @@ body {
   color: #6070ff;
   width: 18px;
   height: 12px;
+}
+
+.mobile-divider {
+  height: 0;
+  border: 1px solid #ebecf0;
+}
+
+.cancel {
+  color: #67798e !important;
 }
 
 .intro {
@@ -99,12 +135,43 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.works-flex-container-popup {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.works-flex-container-popup-desktop {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .portfolio-item-img {
   width: 100%;
   height: 100%;
   transition: transform 0.2s;
+}
+
+.portfolio-item-img-popup {
+  width: 100%;
+  height: 350px;
+  transition: transform 0.2s;
+}
+
+.categories {
+  margin-bottom: 20px;
 }
 
 .portfolio-item-img:hover {
@@ -154,6 +221,26 @@ body {
   padding-left: 0;
 }
 
+.btn-text-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.popup-btn {
+  width: 45%;
+}
+
+.flex-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#popup-margin {
+  margin-bottom: 30px;
+}
+
 .skils-ul li {
   display: block;
 }
@@ -172,6 +259,7 @@ body {
   line-height: 16px;
   letter-spacing: 3;
   padding: 4px 12px;
+  margin-right: 10px;
 }
 
 .see-demo-btn {
@@ -184,8 +272,8 @@ body {
   line-height: 24px;
   font-weight: 500;
   letter-spacing: 3;
-  margin-top: 24px;
-  margin-bottom: 28px;
+  margin-top: 10px;
+  margin-bottom: 18px;
 }
 
 .see-demo-btn:hover {
@@ -566,6 +654,27 @@ input[type=submit] {
   .logo:hover {
     color: red;
     animation: rotate 1s linear;
+  }
+
+  .displayover {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20px;
+  }
+
+  .flex-ondesktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-ondesktop p {
+    width: 60%;
+  }
+
+  .popup-btn {
+    width: 140px;
+    margin-right: 10px;
   }
 
   @keyframes rotate {

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/69bb18a36d.js" crossorigin="anonymous"></script>
 </head>
-<body class="body">
+<body class="body" onload="displayWorks()">
     
     <header class="flexbox">
         <span><a class="logo" href="#">Mudasiri</a></span>
@@ -42,75 +42,44 @@
     </section>
     <section class="works" id="portfolio">
         <div class="grid-container">
-            <div class="works-flex-container">
-                <img class="portfolio-item-img" src="img/Snapshoot Portfolio.png" alt="Tonic Website screenshot">
-                <div>
-                    <h2 class="portfolio-title">Tonic</h2>
-                <p class="history" id="bold-history">CANOPY</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> Backend Dev</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> 2015</p>
-                <p class="project-desc">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul id="portfolio-technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                </ul>
-                <button class="see-demo-btn" type="button">See Project</button>
-                </div>
-            </div>
-
-            <div class="works-flex-container flex-flip">
-                <img class="portfolio-item-img" src="img/portfolio4.png" alt="Multi-Post Stories Website image">
-                <div>
-                    <h2 class="portfolio-title">Multi-Post Stories</h2>
-                <p class="history" id="bold-history">CANOPY</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> Backend Dev</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> 2015</p>
-                <p class="project-desc">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul id="portfolio-technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                </ul>
-                <button class="see-demo-btn" type="button">See Project</button>
-                </div>
-            </div>
-
-            <div class="works-flex-container">
-                <img class="portfolio-item-img" src="img/tonic.png" alt="Facebook Website screenshot">
-                <div>
-                    <h2 class="portfolio-title">Facebook 360</h2>
-                <p class="history" id="bold-history">FACEBOOK</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> Backend Dev</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> 2015</p>
-                <p class="project-desc">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-                <ul id="portfolio-technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                </ul>
-                <button class="see-demo-btn" type="button">See Project</button>
-                </div>
-            </div>
-
-            <div class="works-flex-container flex-flip">
-                <img class="portfolio-item-img" src="img/portfolio2.png" alt="Uber Website Image">
-                <div>
-                    <h2 class="portfolio-title">Uber Navigation</h2>
-                <p class="history" id="bold-history">Uber</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> Backend Dev</p>
-                <p class="history"><span><i class="fa-solid fa-circle fa-2xs"></i></span> 2015</p>
-                <p class="project-desc">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
-                <ul id="portfolio-technologies">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVASCRIPT</li>
-                </ul>
-                <button class="see-demo-btn" type="button">See Project</button>
-                </div>
-            </div>
         </div>
     </section>
+    <div id="overlay-project" class="overlay-project">
+        <div class="works-flex-container-popup displayover">
+            <div class="flexbox-popup">
+                <h2 class="portfolio-title" id="popup-title">Tonic</h2>
+                <i class="fa-solid cancel fa-xmark" onclick="closeDemo()"></i>
+            </div>
+            <div class="categories"> 
+                <p class="history" id="bold-history">CANOPY</p>
+            <p class="history" id="popup-history1"><span><i class="fa-solid fa-circle fa-2xs"></i></span> Backend Dev</p>
+            <p class="history" id="popup-history2"><span><i class="fa-solid fa-circle fa-2xs"></i></span> 2015</p>
+            </div>
+            <div>
+            <div>
+                <img class="portfolio-item-img-popup" src="img/Snapshoot Portfolio.png" alt="Tonic Website screenshot" id="popup-img">
+            
+            </div>
+            <div class="flex-ondesktop">
+                <p class="project-desc" id="popup-desc">Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+            <div>
+                <ul id="portfolio-technologies">
+                    <li class="popup-list">HTML</li>
+                    <li class="popup-list">CSS</li>
+                    <li class="popup-list">JAVASCRIPT</li>
+                </ul>
+                <hr class="mobile-divider">
+                
+                <div class="flex-btns">
+                <button class="see-demo-btn popup-btn" type="button" id="popup-btnlive"> <span class="btn-text-flex">See Live <img src="img/seeproject.png" alt=""></span> </button>
+                <button class="see-demo-btn popup-btn" type="button" id="popup-btngithub"><span class="btn-text-flex">See Source <img src="img/github.png" alt=""></span></button>
+            </div>    
+            </div>
+        </div>
+            </div>
+        </div>
+
+    </div>
     <section class="aboutme" id="about">
       
         <div>
