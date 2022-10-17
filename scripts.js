@@ -32,7 +32,7 @@ let projects = [];
 const projectInfo1 = new Project('Tonic', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', 'img/Snapshoot Portfolio.png', ['CANOPY', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
 const projectInfo2 = new Project('Multi-Post Stories', 'A daily selection of privately personalized reads; no accounts or sign-ups required.', 'img/portfolio4.png', ['CANOPY', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
 const projectInfo3 = new Project('Facebook 360', 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.', 'img/portfolio4.png', ['FACEBOOK', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
-const projectInfo4 = new Project('Uber Navigation', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.', 'img/portfolio2.png', ['UBER', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
+const projectInfo4 = new Project('Uber Navigations', 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.', 'img/portfolio2.png', ['UBER', 'Backend Dev', '2015'], ['HTML', 'CSS', 'Javascript'], '#', '#');
 projects = [projectInfo1, projectInfo2, projectInfo3];
 function showDemo(index) {
   document.getElementById('overlay-project').style.display = 'block';
@@ -182,6 +182,21 @@ function prepareProject(projects) {
     worksection.appendChild(con);
   }
 }
+
+// contact validation
+const email = document.getElementById('email');
+const contactForm = document.querySelector('#contact-form');
+const errorMsg = document.querySelector('#error-message');
+let emailValue = '';
+
+contactForm.addEventListener('submit', (event) => {
+  emailValue = email.value;
+  if (emailValue.toLowerCase() !== emailValue) {
+    errorMsg.textContent = 'Form NOT SENT, Please use LOWERCASE letters on email, Thanks!';
+    errorMsg.style.display = 'block';
+    event.preventDefault();
+  }
+});
 
 function displayWorks() {
   prepareProject(projects);
